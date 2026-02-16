@@ -11,24 +11,14 @@
     "typecheck": "turbo run typecheck",
     "clean": "turbo run clean && rimraf node_modules"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/premchand11/go-boilerplate.git"
-  },
   "packageManager": "bun@1.2.13",
   "engines": {
     "node": ">=22"
   },
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/premchand11/go-boilerplate/issues"
-  },
-  "homepage": "https://github.com/premchand11/go-boilerplate#readme",
   "devDependencies": {
     "turbo": "^2.8.7",
     "typescript": "^5.9.3"
