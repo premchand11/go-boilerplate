@@ -39,7 +39,7 @@ go-boilerplate/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/premchand11/go-boilerplate.git
+git clone https://github.com/sriniously/go-boilerplate.git
 cd go-boilerplate
 ```
 
